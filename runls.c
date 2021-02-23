@@ -6,7 +6,7 @@ int main() {
    
    // Child process
    if (pid == 0) {
-      system("ls");
+      system("ls -l");
       sleep(10);     
    } else {
       sleep(3);
